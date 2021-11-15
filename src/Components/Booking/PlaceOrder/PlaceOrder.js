@@ -19,7 +19,7 @@ const PlaceOrder = () => {
     const {name, img, description, price} = service;
     return (
         <div>
-            <h2 className="my-5"><span className="text-danger">Your Booking Hotel is:</span> {orderId}<span className="text-info">({name})</span></h2>
+            <h2 className="my-5"><span className="text-danger">Your Booking Order is:</span> {orderId}<span className="text-info">({name})</span></h2>
             <div className="d-flex justify-content-center mb-4">
             <div>
             <Row xs={1} md={3} className="g-4">
